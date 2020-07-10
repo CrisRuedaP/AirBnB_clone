@@ -1,0 +1,24 @@
+.Places h1 {
+	font-size: 30px;
+}
+
+article {
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: #ff5a5f 1px solid;
+	border-radius: 4px;
+}
+
+.Places div {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.Places h2 {
+	font-size: 30px;
+	text-align: center;
+}
