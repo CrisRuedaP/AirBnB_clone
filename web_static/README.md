@@ -67,20 +67,12 @@ What you should learn from this project:
 * Write an HTML page that displays a header, a footer, a filter box (dropdown list) and the result of the search.
 
 
-### [9. Full details](./100-index.html)
+### [100. Full details](./100-index.html)
 * Write an HTML page that displays a header, footer, a filters box with dropdown and results.
 
 
-### [10. Flex](./101-index.html)
+### [101. Flex](./101-index.html)
 * Improve the Places section by using Flexible boxes for all Place articles
-
-
-### [11. Responsive design](./102-index.html)
-* Improve the page by adding responsive design to display correctly in mobile or small screens.
-
-
-### [12. Accessibility](./103-index.html)
-* Improve the page by adding Accessibility support
 
 ---
 
