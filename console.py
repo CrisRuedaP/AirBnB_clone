@@ -126,16 +126,17 @@ class HBNBCommand(cmd.Cmd):
                     "City", "Amenity", "Place", "Review"]
         entry_arg = arg.split()
         all_objs = storage.all()
-        for key in all_objs.items():
-            if arg:
-                if entry_arg[0] not in allClass:
-                    print("** class doesn't exist **")
-                    break
-            if entry_arg:
-                if all_objs[key].__dict__['__class__'] == entry_arg[0]:
-                    print(all_objs[key])
-            else:
-                print(all_obj[key])
+        list_ins = []
+        if entry_arg[0] not in self.allClass:
+            print("** class doesn't exist **")
+        else:
+            try:
+                for instance in all_objs:
+                    inst_str = str(all_objs[instance])
+                    list_ins.append(inst_str)
+                    print(list_ins)
+            except:
+                pass
 
     def do_update(self, arg):
         """
